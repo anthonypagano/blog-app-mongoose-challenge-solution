@@ -2,3 +2,10 @@ language: node_js
 node_js: node
 services:
 - mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: 3d1dcf89-2035-4fe9-b681-9ebad93b93bf
+  app: https://fast-bayou-87338.herokuapp.com/
+  on:
+    repo: anthonypagano/blog-app-mongoose-challenge-solution
