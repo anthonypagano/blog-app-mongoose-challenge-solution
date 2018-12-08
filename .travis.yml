@@ -6,6 +6,6 @@ deploy:
   provider: heroku
   api_key:
     secure: 3d1dcf89-2035-4fe9-b681-9ebad93b93bf
-  app: https://fast-bayou-87338.herokuapp.com/
+  app: fast-bayou-87338
   on:
     repo: anthonypagano/blog-app-mongoose-challenge-solution
